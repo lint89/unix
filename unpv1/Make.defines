@@ -1,0 +1,8 @@
+CC = gcc
+AR = ar 
+RANLIB = ranlib
+
+CFLAGS = -I../lib -g -O2 -Wall
+
+LIBS = ../libunp.a -lpthread
+LIBUNP_NAME = ../libunp.a
